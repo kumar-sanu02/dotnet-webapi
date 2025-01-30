@@ -12,7 +12,7 @@ namespace WebApi.Models.Entities
         public Employee Employees { get; set; }
         [ForeignKey("Employee")]
         public int Id{get;set;}
-        [Required][MaxLength(50)]
+        [Required][MaxLength(60)]
         public int Address { get; set; }
     }
 }
